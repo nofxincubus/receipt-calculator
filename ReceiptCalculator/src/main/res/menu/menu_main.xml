@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_add_item"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/action_add_item"/>
+
+    <item android:id="@+id/submenu"
+        android:title="@string/action_sample"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_more">
+
+        <menu>
+            <item android:id="@+id/action_input_one"
+                android:title="@string/action_input_one"/>
+
+            <item android:id="@+id/action_input_two"
+                android:title="@string/action_input_two"/>
+
+            <item android:id="@+id/action_input_three"
+                android:title="@string/action_input_three"/>
+        </menu>
+
+    </item>
+
+
+
+
+</menu>

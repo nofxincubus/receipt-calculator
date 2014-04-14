@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ReceiptCalculator</string>
+
+    <string name="action_add_item">Add</string>
+
+    <string name="action_sample">Samples</string>
+
+    <string name="type_purchase">Please type in the purchase</string>
+
+    <string name="action_input_one">Input One</string>
+    <string name="action_input_two">Input Two</string>
+    <string name="action_input_three">Input Three</string>
+    <string-array name="input_one">
+        <item>1 book at 12.49</item>
+        <item>1 music CD at 14.99</item>
+        <item>1 chocolate bar at 0.85</item>
+    </string-array>
+    <string-array name="input_two">
+        <item>1 imported box of chocolates at 10.00</item>
+        <item>1 imported bottle of perfume at 47.50</item>
+    </string-array>
+    <string-array name="input_three">
+        <item>1 imported bottle of perfume at 27.99</item>
+        <item>1 bottle of perfume at 18.99</item>
+        <item>1 packet of headache pills at 9.75</item>
+        <item>1 box of imported chocolates at 11.25</item>
+    </string-array>
+
+    <string name="error_empty">String is empty!</string>
+    <string name="error_general">Unable to parse your input!</string>
+    <string name="error_count">You need to specify in number of item!</string>
+    <string name="error_price">You need to specify the price!</string>
+    <string name="delete_message">Delete this item?</string>
+
+    <string name="calculate_receipt">Calculate Receipt</string>
+
+</resources>
